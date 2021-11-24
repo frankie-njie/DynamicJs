@@ -1,0 +1,38 @@
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dropdown-btn {
+  color: #fff;
+  background-color: #FF7878;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-btn:hover, .dropdown-btn:focus {
+  background-color: #f15959;
+}
+
+.dropdown-menu {
+  display: none;
+  background-color: #f5f5f5;
+  min-width: 160px;
+  width: fit-content;
+}
+
+.dropdown-menu a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 16px;
+  color: inherit;
+}
+
+.dropdown-menu a:hover {
+  background-color: #eaeaea;
+}
